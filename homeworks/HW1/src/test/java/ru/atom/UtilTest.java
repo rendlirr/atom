@@ -66,7 +66,7 @@ public class UtilTest {
         assertThat(Util.sum(new int[]{-1, 0, -1}), is(equalTo(-2L)));
     }
 
-
+    @Ignore
     @Test
     public void sum3() throws Exception {
 
